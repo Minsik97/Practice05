@@ -4,9 +4,14 @@ public class Base {
     
     public void service(String state) {
         
-    	this.day();
-    	this.night();
-    	this.afternoon();
+    	if(state == "낮") {
+    		this.day();
+    	}else if(state == "밤") {
+    		this.night();
+    	}else if(state == "오후") {
+    		this.afternoon();
+    	}
+    	
         //코드작성할것
     }
 

@@ -6,11 +6,21 @@ public class Print {
         System.out.println(val);
     }
     
-    public boolean printer(boolean print) {
-    	if(print == true) {
-    		System.out.println(true);
-    	}
-    } 
+    
+     
     //메소드  3개 를 작성하세요
+    public void printer(boolean val) {
+    	System.out.println(val);
+    }
+    
+    public void printer(double val) {
+    	System.out.println(val);
+    }
+    
+    public void printer(String val) {
+    	System.out.println(val);
+    }
+
+    
     
 }
